@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Model Canvas Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Business Model Canvas Generator</h1>
+        <textarea id="prompt" maxlength="2000" placeholder="Pitch your business idea or concept here. Remember you can use up to 2000 characters."></textarea>
+        <button id="generate">Generate Canvas</button>
+        
+        <div id="canvas">
+            <div class="canvas-row">
+                <div class="canvas-section" id="problem">Problem</div>
+                <div class="canvas-section" id="solution">Solution</div>
+                <div class="canvas-section" id="unique-value-proposition">Unique Value Proposition</div>
+                <div class="canvas-section" id="unfair-advantage">Unfair Advantage</div>
+                <div class="canvas-section" id="customer-segments">Customer Segments</div>
+            </div>
+            <div class="canvas-row">
+                <div class="canvas-section" id="existing-alternatives">Existing Alternatives</div>
+                <div class="canvas-section" id="key-metrics">Key Metrics</div>
+            </div>
+            <div class="canvas-row">
+                <div class="canvas-section" id="channels">Channels</div>
+            </div>
+            <div class="canvas-row">
+                <div class="canvas-section" id="cost-structure">Cost Structure</div>
+                <div class="canvas-section" id="revenue-streams">Revenue Streams</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
